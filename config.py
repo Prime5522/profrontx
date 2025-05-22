@@ -11,5 +11,5 @@ LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
 DB_URI = os.environ.get("DB_URI", "")
 DB_NAME = os.environ.get("DB_NAME", "")
 
-IS_FSUB = os.environ.get("IS_FSUB", "False").lower() == "true"  # Set "True" For Enable Force Subscribe
-AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-100xxxxxxxxx -100xxxxxxx").split()))  # Add Multiple channel id's
+IS_FSUB = os.environ.get("IS_FSUB", "True").lower() == "true"  # Set "True" For Enable Force Subscribe
+AUTH_CHANNELS = list(map(int, os.environ.get("AUTH_CHANNEL", "-1002323796637").split()))  # Add Multiple channel id's
